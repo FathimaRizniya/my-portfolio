@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import { FiDownload, FiArrowRight, FiGithub, FiLinkedin } from 'react-icons/fi';
 import { Link } from 'react-scroll';
-import profileImg from '../assets/profile.jpg';
+import profileImg from '../assets/Profile.Jpg';
 import myCv from '../assets/mycv.pdf';
 
 function Particle({ x, y, size, delay }) {
