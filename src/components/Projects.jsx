@@ -11,6 +11,8 @@ import studentImg   from '../assets/projects/studentmanagementsystem.png';
 import whaterImg    from '../assets/projects/watherapplication.png';
 import todoImg      from '../assets/projects/tamatowebsite.png';
 import blomixImg   from '../assets/projects/bloomix.png';
+import rebuilt  from '../assets/projects/rebuildwebsite.png';
+import appli     from '../assets/projects/to-Do.png';
 import graphic1Img  from '../assets/projects/graphic1.jpg';
 import graphic2Img  from '../assets/projects/graphic2.jpg';
 import graphic3Img  from '../assets/projects/graphic3.jpg';
@@ -54,7 +56,7 @@ const projects = [
     code: 'https://github.com/FathimaRizniya/task-m',
   },
   {
-    title: 'POS System',
+    title: 'POS System | Product Module',
     desc: 'Developed the Product module for a POS system using React and Laravel, featuring full CRUD functionality, clean management interfaces, and seamless frontend-backend integration. Collaborated in a team environment and used Git for version control.',
     img: posImg,
     tags: ['React', 'Laravel', 'Git'],
@@ -70,7 +72,7 @@ const projects = [
     code: '#',
   },
   {
-    title: 'Bookshop Management System',
+    title: 'Bookshop Management System - Group Project',
     desc: 'A desktop booksshop management system built with C#, designed to streamline inventory management, sales processing, customer relationships, and reporting. The system improves operational efficiency, data accuracy, and overall business performance.',
     img: bookshopImg,
     tags: ['C#', 'Visual Studio', 'MySQL'],
@@ -94,6 +96,15 @@ const projects = [
     code: 'https://fathimarizniya.github.io/weather-dashboard/',
   },
 
+   {
+    title: 'to-Do Web Application',
+    desc: ' Developed a simple and interactive To-Do List web application using HTML, CSS, and JavaScript. The project allows users to add, edit, complete, and delete tasks to manage their daily activities efficiently. It features a clean and responsive user interface, making task management easy and user-friendly.',
+    img: appli,
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    live: '#',
+    code: '#',
+  },
+
   {
     title: 'Tamato Website',
     desc: ' Developed a frontend-only React website for a personal project called Tomato, using React.js and MySQL for learning purposes. The site showcases modern web design techniques and interactive features while practicing frontend development skills.',
@@ -111,6 +122,16 @@ const projects = [
     live: 'https://fathimarizniya.github.io/Flower-shop-web/',
     code: 'https://fathimarizniya.github.io/Flower-shop-web/',
   },
+  {
+    title: 'Rebuilt Company Website | Group Project',
+    desc: 'Rebuilt and modernized an existing company website as part of a group project using React for the frontend and Laravel for the backend. The goal of the project was to improve the website’s performance, design, and user experience while implementing a more scalable and maintainable architecture.',
+    img: rebuilt,
+    tags: ['React', 'Laravel', 'JavaScript'],
+    live: '#',
+    code: '#',
+  },
+
+ 
 ];
 
 const graphicProjects = [
